@@ -68,7 +68,7 @@ function animatePress(currentColor) {
 }
 
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio("/Simon Game Challenge Starting Files/sounds/" + name + ".mp3");
   audio.play();
 }
 
